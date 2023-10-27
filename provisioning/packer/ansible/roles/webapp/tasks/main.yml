@@ -19,12 +19,6 @@
     - etc/nginx/sites-available/isuconquest-php.conf
     - etc/mysql/conf.d/my.cnf
     - etc/systemd/system/isuconquest.go.service
-    - etc/systemd/system/isuconquest.nodejs.service
-    - etc/systemd/system/isuconquest.php.service
-    - etc/systemd/system/isuconquest.ruby.service
-    - etc/systemd/system/isuconquest.rust.service
-    - etc/systemd/system/isuconquest.perl.service
-    - home/isucon/local/php/etc/isuconquest.php-fpm.conf
 
 - name: Remove nginx default
   become: true
